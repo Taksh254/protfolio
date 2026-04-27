@@ -4,6 +4,7 @@
   justify-content: left;
   place-items: center;
   position: relative;
+  z-index: 20;
   opacity: 1;
   height: auto;
   width: var(--cWidth);

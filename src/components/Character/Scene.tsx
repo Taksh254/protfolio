@@ -39,8 +39,8 @@ const Scene = () => {
 
       const camera = new THREE.PerspectiveCamera(14.5, aspect, 0.1, 1000);
       camera.position.z = 10;
-      camera.position.set(0, 13.1, 24.7);
-      camera.zoom = 1.1;
+      camera.position.set(0, 13.1, 30);
+      camera.zoom = 1;
       camera.updateProjectionMatrix();
 
       let headBone: THREE.Object3D | null = null;
@@ -59,6 +59,7 @@ const Scene = () => {
           hoverDivRef.current && animations.hover(gltf, hoverDivRef.current);
           mixer = animations.mixer;
           let character = gltf.scene;
+          character.position.x = 0; // Reset to center
           setChar(character);
           scene.add(character);
           headBone = character.getObjectByName("spine006") || null;

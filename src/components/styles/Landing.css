@@ -112,7 +112,7 @@
   max-width: 1920px;
   max-height: 1080px;
   transform: translateX(-50%);
-  width: 100%;
+  width: 100vw;
   left: 50%;
   z-index: 0;
   bottom: 50px;
@@ -328,6 +328,8 @@ h2.landing-info-h2 {
     bottom: 0;
     z-index: 11;
     position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
   }
 
   .character-model::after,
@@ -337,8 +339,8 @@ h2.landing-info-h2 {
 
   .landing-intro {
     top: 50%;
-    left: auto;
-    right: 66%;
+    left: 8%;
+    right: auto;
     transform: translate(0%, -50%);
   }
 
@@ -348,8 +350,8 @@ h2.landing-info-h2 {
     z-index: inherit;
     text-align: left;
     transform: translate(0%, -50%);
-    right: auto;
-    left: 66%;
+    right: 8%;
+    left: auto;
   }
 }
 

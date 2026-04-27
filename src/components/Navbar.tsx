@@ -21,7 +21,7 @@ const Navbar = () => {
     });
 
     smoother.scrollTop(0);
-    smoother.paused(true);
+    // smoother.paused(true);
 
     let links = document.querySelectorAll(".header ul a");
     links.forEach((elem) => {
@@ -43,16 +43,15 @@ const Navbar = () => {
     <>
       <div className="header">
         <a href="/#" className="navbar-title" data-cursor="disable">
-          AM
+          TS
         </a>
         <a
-          href="https://www.linkedin.com/in/akashrmalhotra/"
-          className="navbar-connect"
-          data-cursor="disable"
+          href="https://www.linkedin.com/in/taksh254/"
           target="_blank"
           rel="noreferrer"
+          data-cursor="disable"
         >
-          linkedin.com/in/akashrmalhotra
+          linkedin.com/in/taksh254
         </a>
         <ul>
           <li>

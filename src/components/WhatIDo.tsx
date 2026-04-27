@@ -95,12 +95,12 @@ const WhatIDo = () => {
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">LLMs &amp; agents</div>
-                <div className="what-tags">Workflow design</div>
-                <div className="what-tags">RAG &amp; retrieval</div>
-                <div className="what-tags">Evals &amp; guardrails</div>
-                <div className="what-tags">Integrations</div>
-                <div className="what-tags">Product strategy</div>
+                <div className="what-tags">LLMs &amp; Agents</div>
+                <div className="what-tags">OpenAI &amp; Gemini</div>
+                <div className="what-tags">RAG Systems</div>
+                <div className="what-tags">Prompt Engineering</div>
+                <div className="what-tags">Automation</div>
+                <div className="what-tags">AI Strategy</div>
               </div>
               <div className="what-arrow"></div>
             </div>
@@ -132,13 +132,13 @@ const WhatIDo = () => {
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">Node.js</div>
-                <div className="what-tags">Python</div>
-                <div className="what-tags">REST &amp; real-time APIs</div>
+                <div className="what-tags">Next.js</div>
+                <div className="what-tags">TypeScript</div>
+                <div className="what-tags">Three.js</div>
+                <div className="what-tags">GSAP</div>
+                <div className="what-tags">Supabase</div>
                 <div className="what-tags">PostgreSQL</div>
-                <div className="what-tags">MongoDB</div>
-                <div className="what-tags">React</div>
-                <div className="what-tags">Cloud &amp; infra</div>
+                <div className="what-tags">Tailwind CSS</div>
               </div>
               <div className="what-arrow"></div>
             </div>

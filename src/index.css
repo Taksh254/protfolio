@@ -34,7 +34,7 @@ h6 {
 }
 
 body {
-  overflow: hidden;
+  margin: 0;
 }
 
 a {
@@ -79,10 +79,16 @@ body {
   overflow-x: hidden;
 }
 
+#smooth-wrapper {
+  position: relative;
+  z-index: 50;
+}
+
 .container-main {
   width: 100%;
   margin: auto;
   position: relative;
+  z-index: 50;
 }
 
 .container1 {
